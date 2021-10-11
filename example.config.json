@@ -1,0 +1,73 @@
+{
+    "token": "bot-token",
+    "prefix": "?",
+    "mongodb_url": "mongodb://localhost/development",
+    "closed_parent_id": "category-id for closed tickets",
+    "transcript_channel_id": "modlog/transcript log channel",
+    "port": 5000,
+    "domain": "http://localhost:5000",
+    "ticket": {
+      "options": {
+        "label": "✅ | Please select your options below",
+        "embed": {
+          "title": "Support Tickets",
+          "description": "Support"
+        },
+        "option1": {
+          "label": "Member Report",
+          "description": "Click here to report an Member",
+          "emoji": "1️⃣",
+          "ticket": {
+            "parent": "category-id for tickets",
+            "support": [
+              "moderator ids like: 331811007062212608",
+              "supporter id 2",
+              "supporter id 3",
+              "supporter id 4"
+            ],
+            "message": {
+              "content": "Successfully opened Request about **Member Report**",
+              "image": null
+            }
+          }
+        },
+        "option2": {
+          "label": "Tournament Help/Support",
+          "description": "Click here to open a Ticket about Tournament Topics",
+          "emoji": "2️⃣",
+          "ticket": {
+            "parent": "category-id for tickets",
+            "support": [
+              "moderator ids like: 331811007062212608",
+              "supporter id 2",
+              "supporter id 3",
+              "supporter id 4"
+            ],
+            "message": {
+              "content": "Successfully opened Request about **Tournament Help/Support**",
+              "image": null
+            }
+          }
+        },
+        "option3": {
+          "label": "Partnership Request",
+          "description": "Click here to open a Partnership request",
+          "emoji": "3️⃣",
+          "ticket": {
+            "parent": "category-id for tickets",
+            "support": [
+              "moderator ids like: 331811007062212608",
+              "supporter id 2",
+              "supporter id 3",
+              "supporter id 4"
+            ],
+            "message": {
+              "content": "Successfully opened Request about **Partnership Requests**",
+              "image": null
+            }
+          }
+        }
+      }
+    }
+  }
+  
